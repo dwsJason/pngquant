@@ -1,11 +1,18 @@
 name: pngquant
-version: 3.0.3
-summary: pngquant
+title: pngquant
+version: 3.0.4
+summary: Lossy PNG compressor
+website: https://pngquant.org/
 description: |
-  Lossy PNG compressor — pngquant command based
-  on libimagequant library https://pngquant.org
+  Makes PNG images 3–4 times smaller with minimal loss of quality. Supports alpha transparency. Compatible with all browsers and operating systems.
 
-base: core20
+  A command-line tool based on the libimagequant library.
+license: GPL-3.0+
+contact: kornel+snap@pngquant.org
+donation: https://paypal.me/kornel
+issues: https://github.com/kornelski/pngquant/issues
+source-code: https://github.com/kornelski/pngquant
+base: core24
 confinement: strict
 
 apps:
